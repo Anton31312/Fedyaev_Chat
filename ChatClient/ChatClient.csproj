@@ -174,5 +174,14 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Meta 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Meta 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Meta 5 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

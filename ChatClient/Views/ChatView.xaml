@@ -32,7 +32,7 @@
                                     <Border 
                                     CornerRadius="10" 
                                     BorderBrush="Black" 
-                                    Background="DodgerBlue"
+                                    Background="#01D1FF"
                                     Padding="3" Width="auto"
                                     HorizontalAlignment="Left">
                                         <StackPanel Margin="0 5 0 5">
@@ -70,14 +70,17 @@
                     </Grid.ColumnDefinitions>
                     <TextBox Grid.Column="0"
                              x:Name="Message"
-                             Margin="5 5 0 5"                     
-                             FontFamily="Candara Light"
+                             Margin="5,5,100,5"        
+                             FontFamily="Asap"
                              FontSize="16"
-                             FontWeight="Bold"
+                             FontWeight="Medium"
                              TextWrapping="Wrap"
                              SpellCheck.IsEnabled="True"/>
                     <Button 
-                        x:Name="Send" Style="{StaticResource RoundButton}" Grid.Column="1" Margin="5" Foreground="White" FontFamily="Bauhaus 93" Content="Send"/>
+                        x:Name="Send" 
+                        Style="{StaticResource RoundButton}" 
+                        Grid.Column="1" Margin="5" 
+                        Foreground="White" FontFamily="Asap" Content="Send"/>
                 </Grid>
             </Grid>
             <Grid Grid.Column="1">

@@ -21,7 +21,7 @@
 
         <Grid 
             Grid.Column="0" 
-            Background="DodgerBlue">
+            Background="#01D1FF">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -34,26 +34,19 @@
                     Foreground="White" 
                     Width="60" 
                     Height="60"
-                    BorderBrush="#fff" FontFamily="Bauhaus 93">
+                    BorderBrush="#fff"
+                    FontFamily="Asap">
                     Message
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="1" VerticalAlignment="Bottom" Margin="0 0 0 10">
-                <Button 
-                    Style="{StaticResource RoundButton}" 
-                    Foreground="White" 
-                    Width="60" 
-                    Height="60"
-                    BorderBrush="#fff" FontFamily="Bauhaus 93">
-                    Settings
-                </Button>
                 <Button 
                     x:Name="Auth"
                     Style="{StaticResource RoundButton}" 
                     Foreground="White" 
                     Width="60" 
                     Height="60"
-                    BorderBrush="#fff" FontFamily="Bauhaus 93">
+                    BorderBrush="#fff" FontFamily="Asap">
                     Log out
                 </Button>
             </StackPanel>

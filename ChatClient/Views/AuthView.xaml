@@ -5,38 +5,106 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Client.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="700" d:DesignWidth="800">
     <Grid>
-        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="250" Background="DodgerBlue">
+        <Grid VerticalAlignment="Center"
+              HorizontalAlignment="Center" 
+              Width="700" Height="800" 
+              Background="#FFFFFF">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition Height="5"/>
                 <RowDefinition Height="20"/>
             </Grid.RowDefinitions>
-            <StackPanel Height="200" VerticalAlignment="Center">
-                <TextBox 
+            <StackPanel Height="300" VerticalAlignment="Center">
+                <TextBlock Text="Login"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontSize="40"
+                           FontFamily="Asap"
+                           FontWeight="SemiBold"
+                           Foreground="#01D1FF"/>
+
+                <TextBlock Text="Sing In your account to anything chating"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontSize="12"
+                           FontFamily="Asap"
+                           FontWeight="Medium"
+                           Foreground="#BCBABA"/>
+
+
+                <StackPanel VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+                    <TextBlock  Text="Login"
+                                FontWeight="Medium"
+                                FontSize="17"
+                                FontFamily="Asap"
+                                Margin="5 10 5 2.5"/>
+
+                    <TextBox 
                     x:Name="Username"
                     Height="30" 
-                    Width="150" 
-                    Margin="5 10 5 2.5" 
+                    Width="500" 
+                        Margin="0 5 0 0"
                     HorizontalAlignment="Center" 
                     VerticalAlignment="Center" 
                     TextAlignment="Center" 
                     FontFamily="Candara Light"
                     FontSize="16"
                     FontWeight="Bold"/>
-                <PasswordBox
+
+                    <TextBlock  Text="Password"
+                                FontWeight="Medium"
+                                FontSize="17"
+                                FontFamily="Asap"
+                                Margin="5 10 5 2.5"/>
+                    <PasswordBox
                     x:Name="Password"
                     Height="30" 
-                    Width="150" 
-                    Margin="5 2.5 5 2.5"
+                    Width="500" 
+                    Margin="5 5 5 2.5"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
                     FontSize="16"/>
-                <Button x:Name="LogIn" Style="{StaticResource RoundInterfaceButton}" Height="30" Width="150" Content="Log in" FontFamily="Bauhaus 93" Foreground="White" Margin="5 2.5 5 2.5"/>
-                <Button Style="{StaticResource RoundInterfaceButton}" Height="30" Width="150" Content="Register" FontFamily="Bauhaus 93" Foreground="White" Margin="5 2.5 5 2.5"/>
+                </StackPanel>
+                <Button x:Name="LogIn" 
+                        Style="{StaticResource RoundInterfaceButton}" 
+                        Height="40" Width="400" 
+                        Content="Log in" 
+                        FontFamily="Asap" 
+                        FontSize="24"
+                        FontWeight="SemiBold"
+                        Foreground="White" Margin="5 20 5 2.5"/>
             </StackPanel>
-            <Grid Grid.Row="1" Background="WhiteSmoke"/>
+            <Grid Grid.Row="1" 
+                  Background="White"/>
+            <Image Margin="109,-307,-496,-659" 
+                   Grid.RowSpan="3" 
+                   Source="/Client;component/Meta 5 (1).png" 
+                   Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-9.25"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image Margin="-452,9,364,-382" 
+                   Grid.RowSpan="3"
+                   Source="/Client;component/Meta 5 (1).png" 
+                   Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-58.347"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
         </Grid>
     </Grid>
 </UserControl>
