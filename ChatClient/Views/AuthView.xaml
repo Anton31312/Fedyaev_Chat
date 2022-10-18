@@ -49,7 +49,8 @@
                         Margin="0 5 0 0"
                     HorizontalAlignment="Center" 
                     VerticalAlignment="Center" 
-                    TextAlignment="Center" 
+                        VerticalContentAlignment="Center"
+                    TextAlignment="Left" 
                     FontFamily="Candara Light"
                     FontSize="16"
                     FontWeight="Bold"/>
@@ -64,7 +65,7 @@
                     Height="30" 
                     Width="500" 
                     Margin="5 5 5 2.5"
-                    HorizontalContentAlignment="Center"
+                    HorizontalContentAlignment="Left"
                     VerticalContentAlignment="Center"
                     FontSize="16"/>
                 </StackPanel>
@@ -79,28 +80,22 @@
             </StackPanel>
             <Grid Grid.Row="1" 
                   Background="White"/>
-            <Image Margin="109,-307,-496,-659" 
-                   Grid.RowSpan="3" 
-                   Source="/Client;component/Meta 5 (1).png" 
-                   Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image Margin="-218,531,418,-123" Grid.RowSpan="3" Source="/Client;component/Meta 5 (1) (1).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
                         <SkewTransform/>
-                        <RotateTransform Angle="-9.25"/>
+                        <RotateTransform Angle="76.131"/>
                         <TranslateTransform/>
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image Margin="-452,9,364,-382" 
-                   Grid.RowSpan="3"
-                   Source="/Client;component/Meta 5 (1).png" 
-                   Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image Margin="394,514,-194,-106" Grid.RowSpan="3" Source="/Client;component/Meta 5 (1) (1).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
                         <SkewTransform/>
-                        <RotateTransform Angle="-58.347"/>
+                        <RotateTransform Angle="93.9"/>
                         <TranslateTransform/>
                     </TransformGroup>
                 </Image.RenderTransform>
