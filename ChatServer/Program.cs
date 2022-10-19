@@ -153,7 +153,7 @@ namespace ChatServer
                 new ChatStoredUser(3, "Jack", "12"),
                 new ChatStoredUser(4, "Sergey", "qwerty"),
                 new ChatStoredUser(5, "Biba", "123qwer"),
-                new ChatStoredUser(5, "Boba", "6666")
+                new ChatStoredUser(6, "Boba", "6666")
             };
         }
     }
